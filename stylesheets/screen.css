@@ -1,0 +1,353 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Varela+Round);
+/* line 5, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../.rvm/gems/ruby-2.0.0-p247/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 18, ../sass/_reader.scss */
+body {
+  background: #f4f4f4;
+}
+
+/* line 21, ../sass/_reader.scss */
+.topnav {
+  background: #333;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  z-index: 10500;
+}
+/* line 31, ../sass/_reader.scss */
+.topnav h1 {
+  font-family: "Varela Round", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1em;
+  color: #fff;
+  float: left;
+}
+/* line 40, ../sass/_reader.scss */
+.topnav a.navBtn {
+  text-decoration: none;
+  color: #fff;
+  float: left;
+  margin-right: 1em;
+}
+/* line 46, ../sass/_reader.scss */
+.topnav a.nearby {
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 3em;
+}
+
+/* line 54, ../sass/_reader.scss */
+.content {
+  padding: 5em 1em 2em;
+}
+/* line 56, ../sass/_reader.scss */
+.content article {
+  background: #fff;
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  margin-bottom: 2em;
+}
+/* line 61, ../sass/_reader.scss */
+.content article .contentImage {
+  max-width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+}
+/* line 65, ../sass/_reader.scss */
+.content article .contentImage img {
+  width: 100%;
+  height: auto;
+}
+/* line 70, ../sass/_reader.scss */
+.content article header {
+  padding: 1.5em 1.5em 1em;
+}
+/* line 72, ../sass/_reader.scss */
+.content article header a {
+  color: #2C3E50;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 0.875em;
+}
+/* line 79, ../sass/_reader.scss */
+.content article header a span {
+  text-transform: none;
+  font-weight: 400;
+}
+/* line 85, ../sass/_reader.scss */
+.content article section {
+  padding: 0 1.5em 1.5em;
+  position: relative;
+}
+/* line 89, ../sass/_reader.scss */
+.content article section span.icon {
+  background: #868686;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  left: -15px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 97, ../sass/_reader.scss */
+.content article section span.icon.article {
+  background: #D8AD00;
+  text-align: center;
+}
+/* line 100, ../sass/_reader.scss */
+.content article section span.icon.article .icon {
+  position: relative;
+  top: 7px;
+  color: #fff;
+}
+/* line 106, ../sass/_reader.scss */
+.content article section span.icon.photos {
+  background: #795886;
+  text-align: center;
+}
+/* line 109, ../sass/_reader.scss */
+.content article section span.icon.photos .icon {
+  position: relative;
+  top: 7px;
+  color: #fff;
+}
+/* line 115, ../sass/_reader.scss */
+.content article section span.icon.coupon {
+  background: #AB6130;
+  text-align: center;
+}
+/* line 118, ../sass/_reader.scss */
+.content article section span.icon.coupon .icon {
+  position: relative;
+  top: 7px;
+  color: #fff;
+}
+/* line 126, ../sass/_reader.scss */
+.content article section h2 {
+  margin-bottom: 0.5em;
+}
+/* line 128, ../sass/_reader.scss */
+.content article section h2 a {
+  font-family: "Varela Round", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #3498DB;
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+/* line 136, ../sass/_reader.scss */
+.content article section p {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 0.875em;
+  line-height: 1.2;
+  color: #868686;
+}
+
+@font-face {
+  font-family: "betterpress-new";
+  src: url("../fonts/betterpress-new.eot");
+  src: url("../fonts/betterpress-new.eot?#iefix") format("embedded-opentype"), url("../fonts/betterpress-new.woff") format("woff"), url("../fonts/betterpress-new.ttf") format("truetype"), url("../fonts/betterpress-new.svg#betterpress-new") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 15, ../sass/_icons.scss */
+[data-icon]:before {
+  font-family: "betterpress-new" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 28, ../sass/_icons.scss */
+[class^="i-"]:before,
+[class*=" i-"]:before {
+  font-family: "betterpress-new" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 41, ../sass/_icons.scss */
+.i-bp-coupon:before {
+  content: "a";
+}
+
+/* line 44, ../sass/_icons.scss */
+.i-bp-editorpicks:before {
+  content: "b";
+}
+
+/* line 47, ../sass/_icons.scss */
+.i-bp-fb:before {
+  content: "c";
+}
+
+/* line 50, ../sass/_icons.scss */
+.i-bp-flag:before {
+  content: "d";
+}
+
+/* line 53, ../sass/_icons.scss */
+.i-bp-maps:before {
+  content: "e";
+}
+
+/* line 56, ../sass/_icons.scss */
+.i-bp-menu:before {
+  content: "f";
+}
+
+/* line 59, ../sass/_icons.scss */
+.i-bp-nearby:before {
+  content: "g";
+}
+
+/* line 62, ../sass/_icons.scss */
+.i-bp-photos:before {
+  content: "h";
+}
+
+/* line 65, ../sass/_icons.scss */
+.i-bp-save:before {
+  content: "i";
+}
+
+/* line 68, ../sass/_icons.scss */
+.i-bp-share:before {
+  content: "j";
+}
+
+/* line 71, ../sass/_icons.scss */
+.i-bp-signin:before {
+  content: "k";
+}
+
+/* line 74, ../sass/_icons.scss */
+.i-bp-signout:before {
+  content: "l";
+}
+
+/* line 77, ../sass/_icons.scss */
+.i-bp-x:before {
+  content: "m";
+}
+
+/* line 80, ../sass/_icons.scss */
+.i-bp-calendar:before {
+  content: "n";
+}
+
+/* line 83, ../sass/_icons.scss */
+.i-bp-bookmark:before {
+  content: "o";
+}
+
+/* line 86, ../sass/_icons.scss */
+.i-bp-back:before {
+  content: "p";
+}
+
+/* line 89, ../sass/_icons.scss */
+.i-bp-article:before {
+  content: "q";
+}
+
+/* line 92, ../sass/_icons.scss */
+.i-bp-all:before {
+  content: "r";
+}
+
+/* line 95, ../sass/_icons.scss */
+.i-bp-account:before {
+  content: "s";
+}

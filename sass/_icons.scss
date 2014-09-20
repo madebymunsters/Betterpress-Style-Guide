@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "betterpress-new";
+  src:url("../fonts/betterpress-new.eot");
+  src:url("../fonts/betterpress-new.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/betterpress-new.woff") format("woff"),
+    url("../fonts/betterpress-new.ttf") format("truetype"),
+    url("../fonts/betterpress-new.svg#betterpress-new") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "betterpress-new" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="i-"]:before,
+[class*=" i-"]:before {
+  font-family: "betterpress-new" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-bp-coupon:before {
+  content: "a";
+}
+.i-bp-editorpicks:before {
+  content: "b";
+}
+.i-bp-fb:before {
+  content: "c";
+}
+.i-bp-flag:before {
+  content: "d";
+}
+.i-bp-maps:before {
+  content: "e";
+}
+.i-bp-menu:before {
+  content: "f";
+}
+.i-bp-nearby:before {
+  content: "g";
+}
+.i-bp-photos:before {
+  content: "h";
+}
+.i-bp-save:before {
+  content: "i";
+}
+.i-bp-share:before {
+  content: "j";
+}
+.i-bp-signin:before {
+  content: "k";
+}
+.i-bp-signout:before {
+  content: "l";
+}
+.i-bp-x:before {
+  content: "m";
+}
+.i-bp-calendar:before {
+  content: "n";
+}
+.i-bp-bookmark:before {
+  content: "o";
+}
+.i-bp-back:before {
+  content: "p";
+}
+.i-bp-article:before {
+  content: "q";
+}
+.i-bp-all:before {
+  content: "r";
+}
+.i-bp-account:before {
+  content: "s";
+}

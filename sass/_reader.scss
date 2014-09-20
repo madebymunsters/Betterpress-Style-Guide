@@ -1,0 +1,145 @@
+// COLORS 
+
+$bp-black:#333;
+$bp-light-gray:#f4f4f4;
+$bp-dark-gray:#868686;
+$bp-white:#fff;
+$bp-blue:#3498DB;
+$bp-dark-blue:#2C3E50;
+$bp-yellow:#D8AD00;
+$bp-purple:#795886;
+$bp-orange:#AB6130;
+
+// FONTS
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Varela+Round);
+
+$varela: "Varela Round", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$lato: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background:$bp-light-gray;
+}
+.topnav {
+  background:$bp-black;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  @include box-shadow( 0 1px 2px rgba(0,0,0,0.2));
+  padding:1.5em;
+  z-index: 10500;
+  h1 {
+    font-family:$varela;
+    margin:0;
+    font-size:1em;
+    line-height: 1em;
+    color:$bp-white;
+    float:left;
+  }
+  a {
+    &.navBtn {
+      text-decoration:none;
+      color:$bp-white;
+      float:left;
+      margin-right:1em;
+    }
+    &.nearby {
+      float:right;
+      text-decoration:none;
+      color:$bp-white;
+      margin-right:3em;
+    }
+  }
+}
+.content {
+  padding:5em 1em 2em;
+  article {
+    background:$bp-white;
+    @include box-shadow( 0 2px 4px rgba(0,0,0,0.2) );
+    @include border-radius( 2px );
+    margin-bottom:2em;
+    .contentImage {
+      max-width:100%;
+      max-height:200px;
+      overflow:hidden;
+      img {
+        width:100%;
+        height:auto;
+      }
+    }
+    header {
+      padding:1.5em 1.5em 1em;
+      a {
+        color:$bp-dark-blue;
+        font-family:$lato;
+        text-transform:uppercase;
+        font-weight:900;
+        text-decoration:none;
+        font-size:0.875em;
+        span {
+          text-transform:none;
+          font-weight:400;
+        }
+      }
+    }
+    section {
+      padding:0 1.5em 1.5em;
+      position:relative;
+      span {
+        &.icon {
+          background:$bp-dark-gray;
+          height:30px;
+          width:30px;
+          position:absolute;
+          top:0px;
+          left:-15px;
+          @include border-radius( 50% );
+          &.article {
+            background:$bp-yellow;
+            text-align:center;
+            .icon {
+              position:relative;
+              top:7px;
+              color:$bp-white;
+            }
+          }
+          &.photos {
+            background:$bp-purple;
+            text-align:center;
+            .icon {
+              position:relative;
+              top:7px;
+              color:$bp-white;
+            }
+          }
+          &.coupon {
+            background:$bp-orange;
+            text-align:center;
+            .icon {
+              position:relative;
+              top:7px;
+              color:$bp-white;
+            }
+          }
+        }
+      }
+      h2 {
+        margin-bottom:0.5em;
+        a {
+          font-family: $varela;
+          color:$bp-blue;
+          text-decoration:none;
+          font-size:1.5em;
+          line-height: 1.2;
+        }
+      }
+      p {
+        font-family: $lato;
+        font-weight:300;
+        font-size:0.875em;
+        line-height: 1.2;
+        color:$bp-dark-gray;
+      }
+    }
+  }
+}
